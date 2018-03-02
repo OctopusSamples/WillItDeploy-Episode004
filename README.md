@@ -10,7 +10,7 @@ Will it deploy is a video series where we try to automate the deployment of diff
 
 Our app is a quote generator called [Random Quotes](https://github.com/OctopusSamples/WillItDeploy-Episode004). The application is pretty simple but it allows us to illustrate how to deploy database changes and updates.
 
-![SQL Server logo](sqlserver-logo.png "width=200")
+![SQL Server logo](images/sqlserver-logo.png "width=200")
 
 * Microsoft [ASP.NET Core 2.0](https://docs.microsoft.com/en-us/aspnet/core/) web app
 * [Data-tier application Package (DACPAC)](https://docs.microsoft.com/en-us/ef/core/) framework
@@ -20,7 +20,7 @@ Kudos to our marketing manager [Andrew](https://twitter.com/andrewmaherbne) who 
 
 ### Deployment Target
 
-![Amazon web services logo](aws-logo.png "width=200")
+![Amazon web services logo](images/aws-logo.png "width=200")
 
 * AWS - [EC2](https://aws.amazon.com/ec2) virtual machine 
 * Microsoft [Windows Server 2016](https://www.microsoft.com/en-au/cloud-platform/windows-server)
@@ -29,7 +29,7 @@ Kudos to our marketing manager [Andrew](https://twitter.com/andrewmaherbne) who 
 
 So will it deploy? **Yes it will!** Our deployment process looks like the following.
 
-![Octopus deployment process](deployment-process.png "width=500")
+![Octopus deployment process](images/deployment-process.png "width=500")
 
 Then we add the following steps to successfully deploy our app including cloud infrastructure provisioning and a zero downtime production deployment.
 
@@ -39,7 +39,7 @@ Then we add the following steps to successfully deploy our app including cloud i
 
 This project uses the following variables to store our app settings, database connection details and web app configuration.
 
-![Project variables](project-variables.png "width=500")
+![Project variables](images/project-variables.png "width=500")
 
 This episode's [GitHub repo](https://github.com/OctopusSamples/WillItDeploy-Episode004) contains all the resources and links used in this video.
 
